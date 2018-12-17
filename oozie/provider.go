@@ -15,5 +15,8 @@ func Provider() terraform.ResourceProvider {
 				Description: "The host and port of Oozie server.",
 			},
 		},
+
+		DataSourcesMap: map[string]*schema.Resource{},
+		ResourcesMap:   map[string]*schema.Resource{},
 	}
 }
